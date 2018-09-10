@@ -1,8 +1,8 @@
 pragma solidity ^0.4.24;
 
 import "./ERC721Base.sol";
-import "./Ownable.sol";
-import "./Crowdsale.sol";
+import "../../Ownership/Ownable.sol";
+import "../../Crowdsale.sol";
 
 contract ERC721 is ERC721Base, Ownable {
     struct money {
