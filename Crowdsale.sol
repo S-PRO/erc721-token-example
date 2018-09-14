@@ -1,7 +1,7 @@
-pragma solidity ^ 0.4.24;
+pragma solidity ^0.4.24;
 
-import "./Token/ERC-721/ERC721.sol";
-import "./Ownership/Ownable.sol";
+import "./token/erc-721/ERC721.sol";
+import "./ownership/Ownable.sol";
 
 contract Crowdsale is Ownable {
     ERC721 token;
